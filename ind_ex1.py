@@ -6,6 +6,8 @@ def alpha_test():
     alphabeticalSort(testList)
     print(testList)
 
+alpha_test()
+
 def sigmabeticalSort(list):
     import random
     random.shuffle(list)
@@ -14,6 +16,5 @@ def sigma_test():
     testList = ['first', 'second', 'third', 'fourth','fifth']
     sigmabeticalSort(testList)
     print(testList)
-
-alpha_test()
+    
 sigma_test()
